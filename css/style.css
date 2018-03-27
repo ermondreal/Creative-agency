@@ -1,0 +1,403 @@
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	border: 0;
+	margin: 0;
+}
+
+button {
+	border: 1px solid #00e0d0;
+	border-radius: 4px;
+	background-color: transparent;
+	padding: 10px;
+	color: #00e0d0;
+	font-size: .8em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+}
+
+#head {
+	background: url(../images/header-background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: #fff;
+}
+.nav-btn {
+	cursor: pointer;
+	font-size: 20px;
+	display: none;
+}
+.test {
+	display: none;
+}
+.show {
+	float: right;
+	line-height: 0;
+}
+.center-nav {
+	width: 100%;
+}
+#head img {
+	float: left;
+}
+#head ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 15px;
+}
+#head ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: bold;
+}
+#head ul li a:hover {
+	color: #00e0d0;
+}
+
+#navbar {
+	padding: 40px;
+}
+.sticky {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	transition: all 0.4s ease;
+	background-color: #463768;
+	padding: 15px !important;
+}
+
+/*Header Content*/
+
+#header {
+	display: block;
+	padding-top: 100px;
+	padding-bottom: 170px;
+	text-transform: capitalize;
+}
+.header-title {
+	font-family: PlayfairDisplay;
+	font-weight: bold;
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+.header-content {
+	line-height: 25px;
+	width: 90% !important;
+	padding: 20px 20px 50px;
+	
+}
+span.divider {
+    height: 1px;
+    width: 60px;
+    display: block;
+	margin: 0 auto;
+    background-color: #00e0d0;
+}
+
+/* About */
+
+#about {
+	color: #413d4b;
+}
+#about img {
+	padding: 80px;
+}
+#about-content {
+	float: right;
+	padding: 50px 30px 60px;
+	width: 50%;
+	text-align: left;
+}
+#about-content p {
+	line-height: 20px;
+	font-size: .8em;
+}
+
+/* Team */
+
+#team {
+	background: url(../images/team-background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: #fff;
+	display: block;
+}
+#team-content {
+	padding: 50px;
+}
+#team-member img {
+	padding: 40px 10px 5px;
+}
+#team-member span {
+	display: block;
+}
+#team-member span.name {
+	font-size: .9em;
+	font-weight: bold;
+	padding: 5px;
+	text-transform: uppercase;
+}
+#team-member span.position {
+	font-size: .7em;
+	color: #848392;
+}
+#member1, #member2, #member3, #member4 {
+	display: inline-block;
+}
+#team-footer {
+	padding-top: 90px;
+	padding-bottom: 20px;
+}
+
+/* Expertise */
+#expertise-content {
+	color: #413d4b;
+	padding: 40px;
+}
+#expertise-list {
+	padding: 30px;
+}
+#expertise-list span {
+	display: block;
+}
+#expertise-list span.title {
+	font-size: 1em;
+	font-weight: bold;
+	padding: 20px;
+	text-transform: uppercase;
+	color: #413d4b;
+}
+#expertise-list span.description {
+	font-size: .9em;
+	color: #848392;
+	width: 90%;
+	margin: 0 auto;
+}
+#expertise1, #expertise2, #expertise3, #expertise4, #expertise5, #expertise6 {
+	display: inline-block;
+	width: 31%;
+	padding: 40px 10px 30px;
+}
+
+/* Testimonials */
+.remove {
+	margin-left: 0 !important;
+}
+#testimonial-content {
+	overflow: hidden;
+	height: 520px;
+}
+#testimonial-content .slides {
+	display: block;
+	width: 6000px;
+	height: 520px;
+	margin: 0;
+	padding: 0;
+}
+#testimonial-content .slide {
+	list-style-type: none;
+	float: left;
+	width: 1100px;
+	height: 520px;
+}
+#testimonial {
+	background: url(../images/testimonial-background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: #fff;
+	display: block;
+}
+#testimonial-content h1{
+	padding-top: 90px;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+	margin-top: 0;
+	color: #fff;
+}
+#testimonial-content p {
+	color: #848392;
+	font-size: 1em;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 25px;
+}
+#testimonial-content h4 {
+	padding-top: 70px;
+	margin-bottom: 5px;
+}
+#testimonial-content h6 {
+	font-size: .8em;
+	margin-top: 5px;
+	color: #848392;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+}
+
+/* Contacts */
+#contact {
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 50px;
+}
+#contact-form {
+	width: 65%;
+	float: left;
+	text-align: left;
+}
+#contact-form input {
+	padding: 10px;
+	margin: 10px;
+	width: 70%;
+}
+
+#contact-form h3, #client h3 {
+	color: #413d4b;
+	text-transform: uppercase;
+	padding: 50px 10px 5px;
+	text-align: left;
+}
+#contact-form button {
+	margin: 20px 10px 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#message {
+	height: 150px;
+	width: 70%;
+	padding: 10px;
+	margin: 10px
+}
+#client {
+	width: 35%;
+	float: left;
+}
+#client div a img {
+	margin: 20px auto;
+	border: 0;
+}
+#brand1 {
+	width: 50%;
+	float: left;
+}
+#brand2 {
+	width: 50%;
+	float: right;
+}
+
+/* Footer */
+footer {
+	background: url(../images/footer-background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: #fff;
+}
+#footer-content {
+	padding: 50px 120px 40px;
+	display: inline-block;
+}
+#straightarrow {
+	float: left;
+	width: 33%;
+	text-align: left;
+}
+#straightarrow p {
+	padding: 20px 0;
+	line-height: 25px;
+	width: 80%;
+	font-size: .8em;
+}
+#footer-nav ul {
+	float: left;
+	padding-left: 0;
+}
+#footer-nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding-right: 20px;
+	text-transform: uppercase;
+}
+#footer-nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: .8em;
+}
+#footer-nav ul li a:hover {
+	color: #00e0d0;
+}
+#studio, #subscribe {
+	float: left;
+	width: 33%;
+	text-align: left;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+#studio p, #subscribe p {
+	margin-top: 5px;
+	padding-bottom: 10px;
+}
+#location-icon, #phone-icon {
+	float: left;
+	width: 10%;
+	padding-top: 5px;
+}
+#location, #phone {
+	float: left;
+	width: 90%;
+}
+#location p, #phone p {
+	line-height: 25px;
+    width: 80%;
+    margin-top: 0;
+    font-size: .8em;
+}
+#subscribe-send {
+	width: 100%;
+	margin: 0 auto;
+}
+#subscribe-send input {
+	float: left;
+	width: 60%;
+	padding: 14px;
+	background-color: transparent;
+	border: .1em solid gray;
+}
+#subscribe-send img {
+	float: left;
+}
+#social {
+	width: 100%;
+	padding: 20px 0;
+	display: inline-block;
+}
+#social a img {
+	padding-right: 10px;
+}
+#subscribe span {
+	float: right;
+	padding: 15px 30px;
+	font-weight: normal;
+}
+
+
+
+
+.center {
+	width: 1100px;
+	margin: 0 auto !important;
+	text-align: center;
+}

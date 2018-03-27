@@ -1,0 +1,201 @@
+
+@media screen and (max-width: 1200px) {
+	/* Header */
+	#header {
+		padding-top: 0;
+		padding-bottom: 70px;
+	}
+	#navbar {
+		padding-bottom: 20px;
+	}
+	.nav-btn {
+		position: absolute;
+		top: 35px;
+		right: 40px;
+		float: right;
+	}
+	.nav-btn {
+		display: block;
+	}
+	.show {
+		float: none;
+	}
+	#navbar img {
+		float: none;
+	}
+	#navbar ul li {
+		padding: 30px 10px 0;
+	}
+	.center {
+		width: initial;
+	}
+	
+	/* About */
+	#about img {
+		padding: 80px 0 80px 10px;
+	}
+	#about-content {
+		width: 60%;
+	}
+	
+	/* Team */
+	#team-content {
+    	padding: 1px;
+	}
+	#team-footer {
+		padding-top: 30px;
+	}
+	#team-footer p {
+		padding: 0 20px;
+	}
+	
+	/* Expertise */
+	#expertise-content {
+		padding: 0 ;
+	}
+	#expertise-list {
+		padding: 10px;
+	}
+	
+	/* Testimonial */
+	#testimonial-content h1, #testimonial-content h6 {
+		padding: 15px;
+	}
+	#testimonial-content p {
+		width: 95%;
+	}
+	
+	/* Contact */
+	#contact-form {
+		width: 50%;
+		float: left;
+		margin-left: 65px;
+	}
+	#client {
+		width: 35%;
+		float: right;
+		margin-right: 65px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	/* Expertise */
+	#expertise1, #expertise2, #expertise3, #expertise4, #expertise5, #expertise6 {
+    width: 46%;
+	padding: 20px 10px 30px;
+	}
+
+	/* Contact */
+	#contact-form {
+		width: 50%;
+		float: left;
+		margin-left: 0;
+	}
+	#client {
+		width: 50%;
+		float: right;
+		margin-right: 0;
+	}
+	#contact-form input, #message {
+		width: 85%;
+	}
+	
+	/* Footer */
+	#footer-content {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	/* About */
+	#about-content {
+		width: 50%;
+		padding: 10px;
+	}
+	
+	/* Expertise */
+	#expertise1, #expertise2, #expertise3, #expertise4, #expertise5, #expertise6 {
+    width: 46%;
+	padding: 20px 10px 30px;
+}
+}
+
+@media screen and (max-width: 650px) {
+	/* Header */
+	#navbar {
+		padding-bottom: 0;
+	}
+	#navbar ul {
+		line-height: 30px;
+		padding: 0;
+	}
+	#navbar ul li {
+		display: block;
+		padding: 5px;
+	}
+	
+	/* About */
+	#about {
+		height: 377px;
+	}
+	#about img {
+		display: none;
+	}
+	#about-content {
+		width: 90%;
+	}
+	
+	/* Expertise */
+	#expertise1, #expertise2, #expertise3, #expertise4, #expertise5, #expertise6 {
+    	width: 80%;
+	}
+	
+	/* Contact */
+	#contact-form, #client {
+		width: 68%;
+		float: none;
+		margin: 0 auto;
+	}
+	#brand1, #brand2 {
+		width: 50%;
+		float: none;
+		margin: 0 auto;
+	}
+	#client h3 {
+		text-align: center;
+		padding: 20px;
+	}
+	#contact-form input, #message {
+		width: 85%;
+	}
+	#contact-form {
+		width: 80%;
+		margin: 20px auto;
+	}
+	
+	/* Footer */
+	#straightarrow, #studio, #subscribe {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	#straightarrow p, #studio p {
+		width: 100%;
+	}
+	#location, #phone {
+		text-align: left;
+	}
+	#footer-nav ul {
+    	float: none;
+	}
+	#footer-nav ul li {
+		display: block;
+	}
+	#subscribe-send input {
+		width: 80%;
+	}
+	#subscribe span {
+		float: none;
+		text-align: center;
+	}
+}
