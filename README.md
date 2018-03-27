@@ -1,2 +1,2 @@
-#Creative Agency
-sample project for training
+#CreativeAgency
+Sample project for training
